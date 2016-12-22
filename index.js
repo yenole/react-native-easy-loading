@@ -58,7 +58,7 @@ export class Loading extends React.Component {
                 transparent={true}
                 visible={this.state.isShow}
                 onRequestClose={() => { alert("Modal has been closed.") } }>
-                <View style={[this.props.loadingStyle, styles.load_box]}>
+                <View style={[styles.load_box, this.props.loadingStyle]}>
                     <ActivityIndicator animating={true} color={this.props.color || '#FFF'} size={'large'} style={styles.load_progress} />
                     <Text style={[styles.load_text, this.props.textStyle]}>{this.state.text}</Text>
                 </View>
