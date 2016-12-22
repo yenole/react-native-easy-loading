@@ -1,0 +1,23 @@
+{
+  "name": "react-native-easy-loading",
+  "version": "1.0.0",
+  "description": "适用iOS、Android",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yenole/react-native-easy-loading.git"
+  },
+  "keywords": [
+    "react",
+    "loading"
+  ],
+  "author": "Yeole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yenole/react-native-easy-loading/issues"
+  },
+  "homepage": "https://github.com/Yenole/react-native-easy-loading#readme"
+}
