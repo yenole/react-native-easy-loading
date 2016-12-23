@@ -16,7 +16,7 @@
 
 
 
-## Props
+## 属性
 
 - **`type`** _(String)_ - 用来区分不同Loading组件。
 - **`color`** _(String)_ - 转圈的颜色，默认:`"#FFF"`。
@@ -24,7 +24,8 @@
 - **`loadingStyle`** _(Object)_ - 外层盒子样式。
 
 
-## Methods
+## 方法
+
 - **`show(text:string = 'Loading...',timeout:number = -1,key:string = 'default')`** - 显示`Loading...`
 - **`dismis(key:string = 'default')`** - 关闭
 
