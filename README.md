@@ -1,4 +1,5 @@
 #React-native-easy-loading
+[![npm version](https://badge.fury.io/js/react-native-scrollable-tab-view.svg)](https://badge.fury.io/js/react-native-scrollable-tab-view)
 适用iOS、Android
 
 ## 有问题反馈
@@ -6,6 +7,21 @@
 
 * 邮件(Netxy#vip.qq.com, 把#换成@)
 * QQ: 850265689
+
+## 添加到项目中
+
+1. Run `npm install react-native-easy-loading --save` Or `yarn add react-native-easy-loading`
+2. `var { Loading, EasyLoading } = require('react-native-easy-loading');`
+
+
+
+## Props
+
+- **`type`** _(String)_ - 用来区分不同Loading组件。
+- **`color`** _(String)_ - 转圈的颜色，默认:`"#FFF"`。
+- **`textStyle`** _(Object)_ - 提示字样式。
+- **`loadingStyle`** _(Object)_ - 外层盒子样式。
+
 
 ## 使用
 
