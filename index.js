@@ -14,6 +14,10 @@ export class EasyLoading {
     static bind(loading, key = 'default') {
         loading && (this.map[key] = loading);
     }
+    static unBind(key = 'default') {
+        this.map[key] = null
+        delete this.map[key];
+    }
     static show(text = 'Loading...', timeout = -1, key = 'default') {
         this.map[key] && this.map[key].setState({ "isShow": true, "text": text, "timeout": timeout });
     }
@@ -47,6 +51,7 @@ export class Loading extends React.Component {
     }
     componentWillUnmount() {
         clearTimeout(this.handle);
+        EasyLoading.unBind(this.props.type || 'default');
     }
     render() {
         clearTimeout(this.handle);
