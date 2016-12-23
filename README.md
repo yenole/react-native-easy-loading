@@ -24,6 +24,11 @@
 - **`loadingStyle`** _(Object)_ - 外层盒子样式。
 
 
+## Methods
+- **`show(text:string = 'Loading...',timeout:number = -1,key:string = 'default')`** - 显示`Loading...`
+- **`dismis(key:string = 'default')`** - 关闭
+
+
 ## 使用
 
 ```javascript
