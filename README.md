@@ -1,5 +1,6 @@
 #React-native-easy-loading
 [![npm version](https://badge.fury.io/js/react-native-scrollable-tab-view.svg)](https://badge.fury.io/js/react-native-scrollable-tab-view)
+
 适用iOS、Android
 
 ## 有问题反馈
@@ -10,7 +11,7 @@
 
 ## 添加到项目中
 
-1. Run `npm install react-native-easy-loading --save` Or `yarn add react-native-easy-loading`
+1. Run `npm install react-native-easy-loading --save` or `yarn add react-native-easy-loading`
 2. `var { Loading, EasyLoading } = require('react-native-easy-loading');`
 
 
