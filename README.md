@@ -47,3 +47,8 @@ class App extends Component {
     }
 }
 ```
+
+## 录屏
+
+![iOS](./Screencap/ios.gif)
+![android](./Screencap/ios.gif)
