@@ -38,17 +38,26 @@ import { Loading, EasyLoading } from 'react-native-easy-loading';
 
 class App extends Component {
     componentDidMount() {
-        EasyLoading.show('加载中...', 5000);
-    }
-    render() {
-        return (
-            <Loading color={'#F00'} textStyle={{color:'#F00'}}/>
-        );
-    }
+		EasyLoading.show('Loading...', 3000, 'type');
+		setTimeout(() => {
+			EasyLoading.show('Loading...', 3000);
+		}, 3000)
+	}
+	render() {
+		return (
+			<View style={styles.container}>
+				<Text style={styles.welcome}>Welcome to React Native!</Text>
+				<Text style={styles.instructions}>To get started, edit index.android.js</Text>
+				<Text style={styles.instructions}>Double tap R on your keyboard to reload,{'\n'}Shake or press menu button for dev menu</Text>
+				<Loading />
+				<Loading type={"type"} loadingStyle={{ backgroundColor: "#f007" }} />
+			</View>
+		);
+	}
 }
 ```
 
 ## 录屏
 
 ![iOS](./Screencap/ios.gif)
-![android](./Screencap/ios.gif)
+![android](./Screencap/android.gif)
