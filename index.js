@@ -33,7 +33,7 @@ EasyLoading.map = {};
 export class Loading extends React.Component {
 
     static propTypes = {
-        type: React.Props.string,
+        type: React.PropTypes.string,
         color: React.PropTypes.string,
         textStyle: React.PropTypes.any,
         loadingStyle: React.PropTypes.any,
