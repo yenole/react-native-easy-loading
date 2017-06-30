@@ -1,5 +1,6 @@
 #React-native-easy-loading
-[![npm version](https://badge.fury.io/js/react-native-scrollable-tab-view.svg)](https://badge.fury.io/js/react-native-scrollable-tab-view)
+
+[![npm version](https://badge.fury.io/js/react-native-easy-loading.svg)](https://badge.fury.io/js/react-native-easy-loading)
 
 适用iOS、Android
 
