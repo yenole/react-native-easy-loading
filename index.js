@@ -1,5 +1,6 @@
 'use strict'
 import React from 'react';
+import PropTypes from 'prop-types'
 import { StyleSheet, Dimensions, Text, View, Modal, ActivityIndicator } from 'react-native';
 
 const SCREEN_WIDTH = Dimensions.get('window').width;
@@ -33,10 +34,10 @@ EasyLoading.map = {};
 export class Loading extends React.Component {
 
     static propTypes = {
-        type: React.PropTypes.string,
-        color: React.PropTypes.string,
-        textStyle: React.PropTypes.any,
-        loadingStyle: React.PropTypes.any,
+        type: PropTypes.string,
+        color: PropTypes.string,
+        textStyle: PropTypes.any,
+        loadingStyle: PropTypes.any,
     };
 
     constructor(props) {
