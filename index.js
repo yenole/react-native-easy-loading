@@ -22,8 +22,8 @@ export class EasyLoading {
     static show(text = 'Loading...', timeout = -1, key = 'default') {
         this.map[key] && this.map[key].setState({ "isShow": true, "text": text, "timeout": timeout });
     }
-    static dismis(key = 'default') {
-        this.map[key] && this.map[key].setState({ "isShow": false });
+    static dismis(text = 'Loading...', key = 'default') {
+        this.map[key] && this.map[key].setState({ text: text, isShow: false });
     }
 }
 
